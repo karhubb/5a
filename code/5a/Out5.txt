@@ -1,0 +1,42 @@
+======================================================================
+   REPORTE PROGRAM 6 - ENCONTRAR X PARA DISTRIBUCIÓN t-STUDENT
+======================================================================
+   Fecha de generación: 2025-12-10 15:53:49
+======================================================================
+
+PARÁMETROS DE ENTRADA:
+----------------------------------------
+  p (valor objetivo): 0.2000000000
+  Grados de libertad (dof): 6
+  Error aceptable: 0.0000100000
+
+RESULTADOS DEL ALGORITMO:
+----------------------------------------
+  Iteraciones totales: 19
+  Error final alcanzado: 0.0000079886
+  x encontrado: 0.5533752441
+  Último p calculado: 0.2000079886
+  Verificación: ∫₀^0.5533752441 f(t) dt ≈ 0.2000079886
+
+RESUMEN EN FORMATO TABLA:
+------------------------------------------------------------
+p               dof        x (encontrado)      
+---------------------------------------------
+0.2000000000    6          0.5533752441        
+
+VALIDACIÓN:
+----------------------------------------
+  Precisión alcanzada: SÍ
+  Diferencia respecto al error aceptable: 0.0000020114
+
+INFORMACIÓN DEL ALGORITMO:
+----------------------------------------
+  Algoritmo: Búsqueda adaptativa (Program 6)
+  Método de integración: Regla de Simpson 1/3
+  Valor inicial de x: 1.0
+  Valor inicial de d: 0.5
+  Segmentos iniciales para Simpson: 10
+
+======================================================================
+   FIN DEL REPORTE
+======================================================================
